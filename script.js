@@ -5,7 +5,7 @@ let timer = null;
 document.getElementById('testButton').addEventListener('click', function() {
     if (!testStarted) {
         testStarted = true;
-        timer = setTimeout(endTest, 1000); // 默认1秒，可调整
+        timer = setTimeout(endTest, 10000); // 默认1秒，可调整
     }
     count++;
     updateSpeedDisplay();
